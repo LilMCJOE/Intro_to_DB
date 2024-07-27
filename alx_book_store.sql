@@ -10,7 +10,6 @@ CREATE TABLE Authors (
     author_name VARCHAR(215) NOT NULL
 );
 
--- Create the Books table
 CREATE TABLE Books (
     book_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(130) NOT NULL,
